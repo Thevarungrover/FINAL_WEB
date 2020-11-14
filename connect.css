@@ -1,4 +1,24 @@
 	/* HOME */
+
+.content h1{
+		font-size: 60px;
+		margin-bottom: 60px;
+}
+
+.content h1::after{
+	content: " A Developer";
+	animation: textanim 10s linear infinite;
+  }
+  
+  @keyframes textanim{
+	30%{
+	  content:" A Designer";
+  }
+  60%{
+	  content:" A Programmer";
+  }
+}  
+	
 /*BACKGROUND IMAGE*/
 image{
 	z-index: -1;
@@ -68,10 +88,15 @@ hr{
 
 /*HEADER*/
 #navbar{
-	position: fixed;
+	position: sticky;
 	top: 0;
 	width: 100%;
 	z-index: 1000;
 }
 
-
+#navbar div ul li a:hover{
+    font-size: larger;
+    color: lightblue;
+    font-weight: 550;
+    
+}
