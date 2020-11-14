@@ -69,23 +69,6 @@ hr{
 	padding-left: 20px;
 }
 
-.top_button{
-	position: fixed;
-	/*left: 10px;*/
-	right: 10px;
-	bottom: 8px;
-	height: 42px;
-	width: 42px;
-	border: 2px solid black;
-	padding: 5px;
-	color: black;
-	text-decoration: none;
-	background-color: #00B0FF;
-	z-index: 1;
-	border-radius:50% ;
-    color: #fff;
-}	
-
 /*HEADER*/
 #navbar{
 	position: fixed;
